@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/style.css"/>
+    <script>
+        $(document).ready(function(){
+    $('.modal').each(function(){
+            var src = $(this).find('iframe').attr('src');
+
+        $(this).on('click', function(){
+
+            $(this).find('iframe').attr('src', '');
+            $(this).find('iframe').attr('src', src);
+
+        });
+    });
+});
+    </script>
+</head>
+<body>
+    <div id ="top-report" class="annual-report">
+    <div class="container">
+        <div class="row heading">
+            <h2 class="title">A Year In Review</h2></br>
+            <p class="sub-text">Click around to see what we have been up to.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm grid-box" id="box1" data-toggle="modal" data-target="#modal-1">
+                <div class="cell_1" >
+                    <div class="container">
+                        <h3>Leader Communication</h3>
+                        <p>The leader communication team provides engaging, effective, and exclusive content and resources to support church leaders through ResourceUMC.org and its associated channels.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-1">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm grid-box" id="box2" data-toggle="modal" data-target="#modal-2">
+                <div class="cell_2" >
+                    <div class="container">
+                        <h3>Member Communication</h3>
+                        <p>The Member Communications Team worked with others across the church to provide a diverse array of multimedia content on UMC.org in 2021.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-2">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm grid-box" id="box3" data-toggle="modal" data-target="#modal-3">
+                <div class="cell_3" >
+                    <div class="container">
+                        <h3>Seeker Communication</h3>
+                        <p>Seeker communication includes multi-lingual outreach and evangelism messages through advertising and seeker communication channels.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-3">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm grid-box" id="box4" data-toggle="modal" data-target="#modal-4">
+                <div class="cell_4" >
+                    <div class="container">
+                        <h3>UM News</h3>
+                        <p>The future of the church, the response to the COVID pandemic, efforts dismantle racism and inspirational stories about United Methodists dominated UM News coverage in 2021.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-4">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm grid-box" id="box5" data-toggle="modal" data-target="#modal-5">
+                <div class="cell_5" >
+                    <div class="container">
+                        <h3>LOCAL CHURCH SERVICES AND TRAINING</h3>
+                        <p>Local church communications support and training help church leaders polish their communications skills, reach out to their audiences and grow their churches.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-5">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm grid-box" id="box6" data-toggle="modal" data-target="#modal-6" onclick="scrollToTop()">
+                <div class="cell_6">
+                    <div class="container">
+                        <h3>Global Communcations</h3>
+                        <p>United Methodist Communications is working to implement communications technologies and build infrastructure to reach audiences around the world.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" onclick="scrollToTop()" data-toggle="modal" data-target="#modal-6">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm grid-box" id="box7" data-toggle="modal" data-target="#modal-7" onclick="scrollToTop()">
+                <div class="cell_7">
+                    <div class="container">
+                        <h3>Marketing</h3>
+                        <p>From Times Square to TikTok, from celebrating our United Methodist core values to connecting with joy, marketing efforts helped raise awareness of what the UMC offers.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-7" onclick="scrollToTop()">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm grid-box" id="box8" data-toggle="modal" data-target="#modal-8" onclick="scrollToTop()">
+                <div class="cell_8">
+                    <div class="container">
+                        <h3>Technology</h3>
+                        <p>United Methodist Communications uses leading edge technology to develop effective communication systems that strive to deliver best-practice customer experiences.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-8" onclick="scrollToTop()">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm grid-box" id="box9" data-toggle="modal" data-target="#modal-9" onclick="scrollToTop()">
+                <div class="cell_9">
+                    <div class="container">
+                        <h3>Production</h3>
+                        <p>The pandemic created greater demand for video production services and our production team met the challenge.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-9" onclick="scrollToTop()">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Start Modal 1 Section -->
+    <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Leader</br>Communication</h3>
+                            <p class="sub-text">The leader communication team provides engaging, effective, and exclusive content and resources to support church leaders through ResourceUMC.org and its associated channels.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>In 2021, 116 original pieces of content were produced in English, Spanish and Korean languages. More than 100 pieces of existing content from United Methodist Communications and other agencies or United Methodist entities were republished on the site.</p>
+                                    <p>Highlights included the Imagining the Future project, Emerging Methodism, and content for the State of the Church report. A new section was created on ResourceUMC.org for Judicial Council Decisions.</p>
+                                    <p>A new podcast, Pastoring the Digital Parish, is dedicated to foster community and offer resources for leaders adjusting to ministry in the digital space.</p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/ouz8KcV0fhA" title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>14,255</h4>
+                                    <p class="sub-text-2">newsletter</br>subscribers</p>
+                                    <h4>1.86</h4>
+                                    <p class="sub-text-2">million</br>page views</p>
+                                    <h4>505%</h4>
+                                    <p class="sub-text-2">increase in Spanish</br>language sessions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 2 Section -->
+    <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Member</br>Communication</h3>
+                            <p class="sub-text">The Member Communications Team worked with others across the church to provide a diverse array of multimedia content on UMC.org in 2021.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>From a series of Tuesdays at the Table conversations by the Connectional Table and a collection of 11 video devotions by our United Methodist bishops to interviews with missionaries in support of United Methodist Global Ministries’ Give Love end-of-year giving campaign and a partnership with the General Commission on Archives and History to promote events in England and the U.S. celebrating the 250th anniversary of Francis Asbury’s historic journey from Bristol to Philadelphia, collaboration was a key component of developing member content this past year.</p>
+                                    <p>Other highlights from the year included stories about church outreach during the COVID pandemic, the 100th episode of the Get Your Spirit in Shape podcast on International Podcast Day and a look back at the September 11 tragedy 20 years later.</p>
+                                    <p>Throughout 2021, the Member Communications Team increased production of content in Spanish, French, Korean and Portuguese. Users will note that UMC.org’s homepages in every language are now presenting consistent messaging.  </p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/vpT8dtBxrR8" title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>114</h4>
+                                    <p class="sub-text-2">new pieces</br>of content</p>
+                                    <h4>15.6%</h4>
+                                    <p class="sub-text-2">increase in</br>UMC.org sessions</p>
+                                    <h4>9,903,501</h4>
+                                    <p class="sub-text-2">page views</p>
+                                    <h4>235,541</h4>
+                                    <p class="sub-text-2">non-English language</br>page views</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 3 Section -->
+    <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Seeker</br>Communication</h3>
+                            <p class="sub-text">Seeker communications includes multi-lingual outreach and evangelism messages through advertising and seeker communication channels.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>The Seeker Content team created 61 original English language articles, 197 Spanish language articles (7 originals and 190 backdated translations), 166 Portuguese backdated translations, 102 French backdated translations, 43 Korean backdated translations, 26 podcast episodes and 65 social media videos.</p>
+                                    <p>TikTok provides a promising new avenue for reaching seekers. In the summer of 2021, the agency launched a series of TikTok video ads for the first time. This test proved so successful that the popular spots were reprised for the Advent campaign, and garnered a combined exposure of nearly 2 million for three spots, with 674K, 596K and 603K views.</p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/G4JEKJbbvs4" title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>22,748</h4>
+                                    <p class="sub-text-2">Compass subscriptions</p>
+                                    <h4>314K</h4>
+                                    <p class="sub-text-2">Facebook engagement</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 4 Section -->
+    <div class="modal fade" id="modal-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>UM News</h3>
+                            <p class="sub-text">UM News focused on 4 major areas of coverage in 2021: The future of the church, the church’s response to the pandemic, efforts to confront and dismantle racism, and uplifting features of United Methodist individuals and congregations transforming the world through their faith.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>UM News produced more than 800 original pieces of news content during the year in English, Spanish, Korean, Portuguese and French, and aggregated hundreds of stories from around the church through the UM News Daily Digest. Commentaries on a wide range of topics provided a place for a dialogue of ideas, and a new feature invited people to share personal stories about encounters with racism.</p>
+                                    <p>Viewership outside the U.S. grew, most notably in South Korea. A new Friday Digest replaced the former UM News Weekly Digest with a more compelling, visually attractive and easy-to-read weekly e-newsletter, and the frequency of the Korean e-newsletter, DuruAllimi, was changed to weekly.</p>
+                                    <p>Coverage highlights in 2021 included multimedia reporting of the plight of immigrants and how United Methodists are responding, an eight-part Ask The UMC series on death and resurrection, and the 250th anniversary of Francis Asbury’s crossing from England to America.</p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/7A8aHaphfq0" title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>800</h4>
+                                    <p class="sub-text-2">news stories</p>
+                                    <h4>5</h4>
+                                    <p class="sub-text-2">languages</p>
+                                    <h4>10,000+</h4>
+                                    <p class="sub-text-2">Ask The UMC queries</p>
+                                    <h4>1.76 million</h4>
+                                    <p class="sub-text-2">UMNews.org sessions</p>
+                                    <h4>44,793</h4>
+                                    <p class="sub-text-2">Daily Digest subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 5 Section -->
+    <div class="modal fade" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Local Church</br>Services and Training</h3>
+                            <p class="sub-text">Through local church communications support and training, United Methodist Communications helps church leaders polish their communications skills, reach out to their audiences and grow their churches into inviting and inspiring places to worship.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>In 2021, the Training Team introduced four new avenues of training to help leaders flourish through communications. They led two facilitated courses (Developing a Strategy for Communication Planning, Communicating During Seasons of Change) and two ecumenical communication conferences (Leveraging Communication, Moving the Church Forward through Communication).</p>
+                                    <p>The Local Church Services Team provided marketing coaching, strategy, implementation and resource assistance. Services included comprehensive marketing audits, social media strategy and ad placements, website design, building and search engine optimization, logo and brand development, design of print materials and customized promotional materials.</p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/xQ47OWiTfCQ" title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>800</h4>
+                                    <p class="sub-text-2">news stories</p>
+                                    <h4>5</h4>
+                                    <p class="sub-text-2">languages</p>
+                                    <h4>10,000+</h4>
+                                    <p class="sub-text-2">Ask The UMC queries</p>
+                                    <h4>1.76 million</h4>
+                                    <p class="sub-text-2">UMNews.org sessions</p>
+                                    <h4>44,793</h4>
+                                    <p class="sub-text-2">Daily Digest subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 6 Section -->
+    <div class="modal fade" id="modal-6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Global</br>Communication</h3>
+                            <p class="sub-text">United Methodist Communications is working to implement communications technologies and build infrastructure to help the church reach audiences around the world with the gospel of Jesus Christ.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>We built relational bridges, worked with leaders to foster accountability and transparency for successful UMCom- sponsored projects in East Africa, Angola, Nigeria, Zimbabwe, Mozambique, DRC and the Philippines and identified equipment and training needs for South Africa, Burundi and South Congo for radio and television evangelization.</p>
+                                    <p>Using the UMConnect text messaging platform, the Global Communications Technology team reached United Methodists in African countries with important church news updates, lifesaving health messaging, vaccine information and more.</p>
+                                    <p>2021 saw the expansion of Voice of Hope radio with a second station site established with financial assistance of $12,000 from United Methodist Communications. UMCom also provided $42,000 to help relaunch Radio Lokole in Kinshasha in the Central Congo Episcopal Area. Grace Radio received initial grant funding of $100,000 to help build a facility and provide equipment through a partnership with The United Methodist Church in Nigeria and the United Methodist Radio Network.</p>
+                                </div>
+                                <div class="col stats">
+                                    <h4>900,000</h4>
+                                    <p class="sub-text-2">messages sent/received</br>through UMConnect</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 7 Section -->
+    <div class="modal fade" id="modal-7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Marketing</h3>
+                            <p class="sub-text">From Times Square to TikTok, from celebrating our United Methodist core values to connecting with joy, marketing efforts helped raise awareness of what the UMC offers with audiences inside and outside the church.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>A new survey reveals that 51% of “spiritual seekers” would be willing to visit a United Methodist church online, and 44% would be willing to visit in person.</p>
+                                    <p>The different teams of the Marketing area such as Promotion & Advertising, Public Information, Creative Strategy and Customer Experience worked together to create awareness of The United Methodist Church and its mission and ministries, as well as resources offered by United Methodist Communications to help church leaders communicate more effectively.</p>
+                                    <p>A new Neighborly Community national Advent advertising campaign took a lighthearted approach to help individuals struggling with isolation and loneliness find meaningful connections with others through The United Methodist Church. Our disaster relief and national advertising campaigns garnered nearly 459 million impressions.</p>
+                                    <p>The #BeUMC campaign invited church members to recognize and embrace the core values that connect the people of The United Methodist Church, live into our mission and remain with The United Methodist Church even in difficult times. Ready-to-use graphics and other resources made it easy for churches and individuals to participate.</p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/UnA3dB6Rkoc" title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>459 million</h4>
+                                    <p class="sub-text-2">advertising impressions</p>
+                                    <h4>1.67 million</h4>
+                                    <p class="sub-text-2">social media followers</p>
+                                    <h4>6.4 million</h4>
+                                    <p class="sub-text-2">social media engagements</p>
+                                    <h4>4.9%</h4>
+                                    <p class="sub-text-2">increase in</br>e-newsletter subscribers</p>
+                                    <h4>33%</h4>
+                                    <p class="sub-text-2">increase in</br>Special Sunday Giving</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 8 Section -->
+    <div class="modal fade" id="modal-8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Technology</h3>
+                            <p class="sub-text">United Methodist Communications uses leading-edge technology to create systems that provide for effective data management and ensure that inspirational and informative content reaches the people that need it, while equipping ministry partners to do the same.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>My Portal offers an easy way for users to choose the most relevant information they get from United Methodist Communications to get a better customer experience. Users can update their contact information, job roles, interests, newsletter subscriptions and more.</p>
+                                    <p>Mapping issues affecting Find-A-Church and My Portal services were resolved, including manually finding missing physical addresses for nearly 500 churches and giving global visibility to churches often lost on maps.</p>
+                                    <p>Introduction of the Crisp online chat tool enables web visitors to make inquiries via UMC.org, ResourceUMC.org, UMnews.org and UMChurches.org.</p>
+                                    <p>Improvements in web hosting services improved communication about and the workflow for delivering secured sites. By providing SSL for all clients, we kept their Internet connection secure and safeguarded sensitive data.</p>
+                                </div>
+                                <div class="col stats">
+                                    <h4>$8,000</h4>
+                                    <p class="sub-text-2">web hosting</br>sales increase</p>
+                                    <h4>273,000+</h4>
+                                    <p class="sub-text-2">My Portal views</p>
+                                    <h4>400%</h4>
+                                    <p class="sub-text-2">increase in chat sessions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Start Modal 9 Section -->
+    <div class="modal fade" id="modal-9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="modal-image"></div>
+                        </div>
+                        <div class="col">
+                            <h3>Production</h3>
+                            <p class="sub-text">The demand for video production services has surged since the start of the pandemic as people seek to stay connected virtually – and our production team has adapted to meet the associated challenges.</p>
+                        </div>    
+                    </div>
+                    </div>
+                    <div class="modal-body-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class=".col-xs-12 col-sm-8 col-sm-push-8">
+                                    <p>United Methodist Communications boasts state-of-the-art studios where our production team supports local churches, annual and jurisdictional conferences, and other boards and agencies through the strategic use of video to deliver stories of the church and its people.</p>
+                                    <p>In 2021, we worked with 22 church entities on projects including the Tuesdays at the Table weekly series, the State of the Church report, Bible studies, educational and training videos, webinars, the denominational advertising campaign spots, video content for UMC.org and ResourceUMC.org, forums and livestreamed events and much more. Our Kingswood Productions arm provided production services to 28 outside organizations to generate additional revenue for communications ministry.</p>
+                                    <div class="videoResponsive">
+                                        <iframe width="690" height="388" src="https://www.youtube.com/embed/0F4wWD8w8UY" title="Video Player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen="allowfullscreen"
+                                            mozallowfullscreen="mozallowfullscreen" 
+                                            msallowfullscreen="msallowfullscreen" 
+                                            oallowfullscreen="oallowfullscreen" 
+                                            webkitallowfullscreen="webkitallowfullscreen"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col stats">
+                                    <h4>238</h4>
+                                    <p class="sub-text-2">total project</p>
+                                    <h4>5,000+</h4>
+                                    <p class="sub-text-2">hours of staff/equipment time</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal-->
+    <!-- Interactive Circle Section -->
+    <div class="space"></div>
+    <div class="container">
+        <div class="row heading">
+            <h2 class="title">The Power of Communication</h2>
+        </div>
+    </div>
+    <div class="container infograph">
+        <div class="row">
+            <div class="top-left-section">
+                <img class="top-left-image animate__animated animate__fadeIn" src="images/info_graph/circle-6.png">
+                <img class="top-left-image-hover animate__animated animate__pulse" src="images/info_graph/hover/circle-6-hover.png">
+                <div class="stats">
+                    <h4>289,000</h4>
+                    <p>newsletter subscribers</p>
+                </div>
+            </div>
+            <div class="top-section">
+                <img class="top-image animate__animated animate__fadeIn" src="images/info_graph/circle-1.png">
+                <img class="top-image-hover animate__animated animate__pulse" src="images/info_graph/hover/circle-1-hover.png">
+                <div class="stats">
+                    <h4>14.6 million</h4>
+                    <p>web page views</p>
+                </div>
+            </div>
+            <div class="top-right-section">
+                <img class="top-right-image animate__animated animate__fadeIn" src="images/info_graph/circle-2.png">
+                <img class="top-right-image-hover animate__animated animate__pulse" src="images/info_graph/hover/circle-2-hover.png">
+                <div class="stats">
+                    <h4>1.67 million</h4>
+                    <p>social media followers</p>
+                </div>
+            </div>
+            <div class="bottom-right-section">
+                <img class="bottom-right-image animate__animated animate__fadeIn" src="images/info_graph/circle-3.png">
+                <img class="bottom-right-image-hover animate__animated animate__pulse" src="images/info_graph/hover/circle-3-hover.png">
+                <div class="stats">
+                    <h4>1,800+</h4>
+                    <p>local churches served</p>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <img class="bottom-image animate__animated animate__fadeIn" src="images/info_graph/circle-4.png">
+                <img class="bottom-image-hover animate__animated animate__pulse" src="images/info_graph/hover/circle-4-hover.png">
+                <div class="stats">
+                    <h4>2,000</h4>
+                    <p>church leaders trainined</p>
+                </div>
+            </div>
+            <div class="bottom-left-section">
+                <img class="bottom-left-image animate__animated animate__fadeIn" src="images/info_graph/circle-5.png">
+                <img class="bottom-left-image-hover animate__animated animate__pulse" src="images/info_graph/hover/circle-5-hover.png">
+                <div class="stats">
+                    <h4>459 million</h4>
+                    <p>advertising impressions</p>
+                </div>
+            </div>
+            <div class="middle-image"></div>
+            <div class="middle-image-hover"></div>
+        </div>
+    </div>
+    <div class="container mobile-infograph">
+        <div class="row">
+            <div class="col">
+                <div class="infograph-mobile-stats">
+                    <h4>14.6 million</h4><p>web page views</p>
+                </div>
+                <div class="infograph-mobile-stats">
+                    <h4>1.67 million</h4><p>social media followers</p>
+                </div>
+                <div class="infograph-mobile-stats">
+                    <h4>1,800+</h4><p>local churches served</p>
+                </div>
+                <div class="infograph-mobile-stats">
+                    <h4>2,000</h4><p>church leaders trained</p>
+                </div>
+                <div class="infograph-mobile-stats">
+                    <h4>459 million</h4><p>advertising impressions</p>
+                </div>
+                <div class="infograph-mobile-stats">
+                    <h4>289,000</h4><p>newsletter subscribers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function scrollToTop() {
+    window.scrollTo(0, 0);
+}
+</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

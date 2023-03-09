@@ -1,0 +1,1182 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+.row {
+  flex-wrap: nowrap !important;
+}
+
+.annual-report {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.annual-report p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.annual-report h3 {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+}
+.annual-report button {
+  text-transform: uppercase;
+}
+.annual-report .container {
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+  white-space: pre-wrap;
+  display: block;
+  line-height: 5px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+h2.title {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 1em;
+  color: #141414;
+  text-transform: uppercase;
+}
+
+p.sub-text {
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  line-height: normal;
+  color: #141414;
+}
+
+.modal-body .container {
+  text-align: revert;
+  margin: revert;
+}
+
+.grid-box {
+  z-index: 0;
+  width: 100%;
+  height: 20vh;
+  max-height: 300px;
+  min-height: 300px;
+  background-color: #888;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.grid-box:hover > * {
+  visibility: visible;
+  opacity: 100;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: white !important;
+}
+
+.grid-box .container {
+  margin-top: 10% !important;
+}
+
+.cell_1 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(240, 165, 36, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_2 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(240, 111, 62, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_3 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(228, 0, 43, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_4 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(161, 233, 162, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_5 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(140, 159, 170, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_6 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(0, 180, 161, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_7 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(16, 142, 196, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_8 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(0, 95, 140, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_9 {
+  position: inherit;
+  overflow: hidden;
+  color: white;
+  font-family: "Oswald";
+  background-color: rgba(138, 94, 191, 0.8);
+  visibility: hidden;
+  max-height: inherit;
+  min-height: inherit;
+  z-index: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cell_1 .btn {
+  color: rgba(240, 165, 36, 0.8) !important;
+}
+
+.cell_2 .btn {
+  color: rgba(240, 111, 62, 0.8) !important;
+}
+
+.cell_3 .btn {
+  color: rgba(228, 0, 43, 0.8) !important;
+}
+
+.cell_4 .btn {
+  color: rgba(161, 233, 162, 0.8) !important;
+}
+
+.cell_5 .btn {
+  color: rgba(140, 159, 170, 0.8) !important;
+}
+
+.cell_6 .btn {
+  color: rgba(0, 180, 161, 0.8) !important;
+}
+
+.cell_7 .btn {
+  color: rgba(16, 142, 196, 0.8) !important;
+}
+
+.cell_8 .btn {
+  color: rgba(0, 95, 140, 0.8) !important;
+}
+
+.cell_9 .btn {
+  color: rgba(138, 94, 191, 0.8) !important;
+}
+
+#box1 {
+  background-image: url(../images/tinified/Leader\ communications\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+#box2 {
+  background-image: url(../images/tinified/Member\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box3 {
+  background-image: url(../images/tinified/Seeker\ popup\ photo.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box4 {
+  background-image: url(../images/tinified/News\ popup\ photo.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box5 {
+  background-image: url(../images/tinified/Local\ church\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box6 {
+  background-image: url(../images/tinified/Global\ Communications\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box7 {
+  background-image: url(../images/tinified/Marketing\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box8 {
+  background-image: url(../images/tinified/TechnologyPopUp.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#box9 {
+  background-image: url(../images/tinified/Productions\ services\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.buttonLabel {
+  background-color: #444444;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  display: inline-block;
+}
+
+.space {
+  margin: 100px;
+}
+
+.space-2 {
+  margin-bottom: 85px;
+}
+
+.infograph {
+  left: 168px;
+  padding-top: 200px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.infograph p {
+  font-size: 20px !important;
+}
+
+.top-left-section {
+  position: relative;
+  width: 5.5em;
+  max-width: 100%;
+  z-index: 0;
+  top: 153px;
+  left: 249px;
+  z-index: 1;
+}
+
+.top-left-image {
+  top: -232px;
+  left: -253px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 13em;
+  height: auto;
+  opacity: 1;
+}
+
+.top-left-image-hover {
+  top: -545px;
+  left: -333px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 25em;
+  height: auto;
+}
+
+.top-left-section img.top-left-image-hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-left-section:hover img.top-left-image-hover {
+  opacity: 1;
+}
+
+.top-left-section:hover img.top-left-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-section {
+  position: relative;
+  width: 5.5em;
+  max-width: 100%;
+  z-index: 0;
+  top: 182px;
+  left: 130px;
+  z-index: 1;
+}
+
+.top-image {
+  top: -422px;
+  left: 85px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 13em;
+  height: auto;
+  opacity: 1;
+}
+
+.top-image-hover {
+  top: -645px;
+  left: -63px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 33em;
+  height: auto;
+}
+
+.top-section img.top-image-hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-section:hover img.top-image-hover {
+  opacity: 1;
+}
+
+.top-section:hover img.top-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-left-section:hover ~ .middle-image-hover,
+.top-section:hover ~ .middle-image-hover,
+.top-right-section:hover ~ .middle-image-hover,
+.bottom-left-section:hover ~ .middle-image-hover,
+.bottom-section:hover ~ .middle-image-hover,
+.bottom-right-section:hover ~ .middle-image-hover {
+  opacity: 0.6 !important;
+  transition: opacity 0.2s;
+}
+
+.infograph .stats h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: "Oswald";
+}
+
+.top-left-section:hover > .stats,
+.top-section:hover > .stats,
+.top-right-section:hover > .stats,
+.bottom-right-section:hover > .stats,
+.bottom-section:hover > .stats,
+.bottom-left-section:hover > .stats {
+  opacity: 1 !important;
+  transition: opacity 0.2s;
+}
+
+.top-right-section {
+  position: relative;
+  top: -57px;
+  left: 124px;
+  width: 5.5em;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.top-right-image {
+  top: -14px;
+  left: 296px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 13em;
+  height: auto;
+  opacity: 1;
+}
+
+.top-right-image-hover {
+  top: -332px;
+  left: 213px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 24em;
+  height: auto;
+}
+
+.top-right-section img.top-right-image-hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-right-section:hover img.top-right-image-hover {
+  opacity: 1;
+}
+
+.top-right-section:hover img.top-right-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-right-section {
+  position: relative;
+  top: -57px;
+  left: 124px;
+  width: 5.5em;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.bottom-right-image {
+  top: 306px;
+  left: 214px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 13em;
+  height: auto;
+  opacity: 1;
+}
+
+.bottom-right-image-hover {
+  top: 71px;
+  left: 137px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 24em;
+  height: auto;
+}
+
+.bottom-right-section img.bottom-right-image-hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-right-section:hover img.bottom-right-image-hover {
+  opacity: 1;
+}
+
+.bottom-right-section:hover img.bottom-right-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-section {
+  position: relative;
+  width: 5.5em;
+  max-width: 200px;
+  z-index: 0;
+  top: 315px;
+  left: -328px;
+  z-index: 1;
+}
+
+.bottom-image {
+  top: 95px;
+  left: 310px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 13em;
+  height: auto;
+  opacity: 1;
+}
+
+.bottom-image-hover {
+  top: -134px;
+  left: 179px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 31em;
+  height: auto;
+}
+
+.bottom-section img.bottom-image-hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-section:hover img.bottom-image-hover {
+  opacity: 1;
+}
+
+.bottom-section:hover img.bottom-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-left-section {
+  top: -53px;
+  left: -808px;
+  position: relative;
+  width: 5.5em;
+  max-width: 200px;
+  z-index: 1;
+}
+
+.bottom-left-image {
+  top: 288px;
+  left: 409px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 13em;
+  height: auto;
+  opacity: 1;
+}
+
+.bottom-left-image-hover {
+  top: 35px;
+  left: 348px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 24em;
+  height: auto;
+}
+
+.bottom-left-section img.bottom-left-image-hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-left-section:hover img.bottom-left-image-hover {
+  opacity: 1;
+}
+
+.bottom-left-section:hover img.bottom-left-image {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.middle-image {
+  top: 0px;
+  left: -262px;
+  right: 0;
+  bottom: 0;
+  width: 25em;
+  height: 25em;
+  background-image: url(../images/info_graph/center.png);
+  border-radius: 100%;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.middle-image-hover {
+  top: 0px;
+  left: -613px;
+  background-color: #00B6C0;
+  bottom: 0;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-repeat: none;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-left-section > .stats {
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-size: 3em;
+  position: absolute;
+  top: -24px;
+  left: -22px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-section > .stats {
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-size: 3em;
+  position: absolute;
+  top: -44px;
+  left: 21px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.top-right-section > .stats {
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-size: 3em;
+  position: absolute;
+  top: 197px;
+  left: -54px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-right-section > .stats {
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-size: 3em;
+  position: absolute;
+  top: 191px;
+  left: -130px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-section > .stats {
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-size: 3em;
+  position: absolute;
+  top: -188px;
+  left: 242px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.bottom-left-section > .stats {
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-size: 3em;
+  position: absolute;
+  top: 186px;
+  left: 652px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.videoResponsive {
+  padding-bottom: 56.25%;
+  height: 0;
+  position: relative;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.videoResponsive iframe,
+.videoResponsive object,
+.videoResponsive embed {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.col-8 p {
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-weight: 200;
+}
+
+.modal-content {
+  border-radius: 1rem !important;
+}
+
+.modal-header {
+  border-bottom: 0px !important;
+}
+
+#modal-1 h3,
+#modal-2 h3,
+#modal-3 h3,
+#modal-4 h3,
+#modal-5 h3,
+#modal-6 h3,
+#modal-7 h3,
+#modal-8 h3,
+#modal-9 h3 {
+  line-height: 40px;
+}
+
+#modal-1 .modal-image {
+  background-image: url(../images/tinified/Leader\ communications\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 344px;
+  height: 269px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.close {
+  padding: 10px 15px !important;
+  margin: 0rem 0rem 0rem auto !important;
+  color: white;
+  opacity: 1 !important;
+  border-radius: 5px;
+}
+
+.modal-content {
+  top: 200px;
+}
+
+#modal-1 h3 {
+  color: rgba(240, 165, 36, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-1 h4 {
+  color: rgba(240, 165, 36, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-1 .close {
+  background-color: rgba(240, 165, 36, 0.8);
+  opacity: 1 !important;
+}
+
+.model-body-text .stats {
+  padding-top: 20px;
+}
+
+.sub-text {
+  font-weight: 700;
+}
+
+.sub-text-2 {
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1em;
+  color: #3a3a3a;
+}
+
+#modal-2 .modal-image {
+  background-image: url(../images/tinified/Member\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 344px;
+  height: 212px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-2 h3 {
+  color: rgba(240, 111, 62, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-2 h4 {
+  color: rgba(240, 111, 62, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-2 .close {
+  background-color: rgba(240, 111, 62, 0.8);
+  opacity: 1 !important;
+}
+
+#modal-3 .modal-image {
+  background-image: url(../images/tinified/Seeker\ popup\ photo.png);
+  background-size: cover;
+  background-position: center center;
+  width: 344px;
+  height: 212px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-3 h3 {
+  color: rgba(228, 0, 43, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-3 h4 {
+  color: rgba(228, 0, 43, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-3 .close {
+  background-color: rgba(228, 0, 43, 0.8);
+  opacity: 1 !important;
+}
+
+#modal-4 .modal-image {
+  background-image: url(../images/tinified/News\ popup\ photo.png);
+  background-size: cover;
+  background-position: 0px -28px;
+  background-repeat: no-repeat;
+  width: 344px;
+  height: 294px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-4 h3 {
+  color: rgba(161, 233, 162, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-4 h4 {
+  color: rgba(161, 233, 162, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-4 .close {
+  background-color: rgba(161, 233, 162, 0.8);
+  opacity: 1 !important;
+}
+
+#modal-5 .modal-image {
+  background-image: url(../images/tinified/Local\ church\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: -36px -2px;
+  background-repeat: no-repeat;
+  width: 307px;
+  height: 348px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-5 h3 {
+  color: rgba(140, 159, 170, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-5 h4 {
+  color: rgba(140, 159, 170, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-5 .close {
+  background-color: rgba(140, 159, 170, 0.8);
+  opacity: 1 !important;
+}
+
+#modal-6 .modal-image {
+  background-image: url(../images/tinified/Global\ Communications\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: 0px -28px;
+  background-repeat: no-repeat;
+  width: 306px;
+  height: 274px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-6 h3 {
+  color: rgba(0, 180, 161, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-6 h4 {
+  color: rgba(0, 180, 161, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-6 .close {
+  background-color: rgba(0, 180, 161, 0.8);
+  opacity: 1 !important;
+}
+
+#modal-7 .modal-image {
+  background-image: url(../images/tinified/Marketing\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: 0px -33px;
+  background-repeat: no-repeat;
+  width: 306px;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-7 h3 {
+  color: rgba(16, 142, 196, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-7 h4 {
+  color: rgba(16, 142, 196, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-7 .close {
+  background-color: rgba(16, 142, 196, 0.8);
+}
+
+#modal-8 .modal-image {
+  background-image: url(../images/tinified/TechnologyPopUp.png);
+  background-size: cover;
+  background-position: -51px 2px;
+  background-repeat: no-repeat;
+  width: 306px;
+  height: 379px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-8 h3 {
+  color: rgba(0, 95, 140, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+}
+
+#modal-8 h4 {
+  color: rgba(0, 95, 140, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-8 .close {
+  background-color: rgba(0, 95, 140, 0.8);
+}
+
+#modal-9 .modal-image {
+  background-image: url(../images/tinified/Productions\ services\ popup\ photo.jpg);
+  background-size: cover;
+  background-position: 0px -28px;
+  background-repeat: no-repeat;
+  width: 306px;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+#modal-9 h3 {
+  color: rgba(138, 94, 191, 0.8);
+  font-size: 40px;
+  opacity: 1 !important;
+  line-height: 40px;
+}
+
+#modal-9 h4 {
+  color: rgba(138, 94, 191, 0.8);
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#modal-9 .close {
+  background-color: rgba(138, 94, 191, 0.8);
+}
+
+.mobile-infograph {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+  .row {
+    flex-wrap: wrap !important;
+  }
+
+  .infograph {
+    display: none !important;
+  }
+
+  .mobile-infograph {
+    visibility: visible;
+    padding: 0px !important;
+  }
+
+  h2.title {
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 2em;
+    line-height: normal;
+    color: #141414;
+    text-transform: uppercase;
+  }
+
+  .infograph-mobile-stats {
+    background-image: url(../images/info_graph/MetricsCircle_WithOverlay.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px 20px;
+  }
+
+  .infograph-mobile-stats h4 {
+    margin-top: 32px;
+    font-size: 4em;
+    color: white;
+    font-weight: 700;
+    font-family: "Oswald";
+  }
+  .infograph-mobile-stats p {
+    color: white;
+    font-family: "Helvetica 45 Light", sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+
+  .modal-image {
+    width: 19rem !important;
+    left: 0px;
+    position: relative;
+  }
+
+  .space-2 {
+    margin-bottom: 0px;
+  }
+
+  .heading {
+    line-height: 0px;
+  }
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 720px;
+    margin: 1.75rem auto;
+  }
+}
+@media (max-width: 375px) {
+  #modal-1 h3,
+#modal-2 h3,
+#modal-3 h3,
+#modal-4 h3,
+#modal-5 h3,
+#modal-6 h3,
+#modal-7 h3,
+#modal-8 h3,
+#modal-9 h3 {
+    font-size: 35px;
+  }
+
+  .modal-image {
+    width: 17rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
