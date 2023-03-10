@@ -259,55 +259,55 @@ p.sub-text {
 }
 
 #box1 {
-  background-image: url(../images/tinified/Leader\ communications\ popup\ photo.jpg);
+  background-image: url(../images/tinified/leader-communication-popup-300px.jpg);
   background-size: cover;
   background-position: 0px 0px;
 }
 
 #box2 {
-  background-image: url(../images/tinified/Member\ popup\ photo.jpg);
+  background-image: url(../images/tinified/member-communication-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box3 {
-  background-image: url(../images/tinified/Seeker\ popup\ photo.png);
+  background-image: url(../images/tinified/seeker-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box4 {
-  background-image: url(../images/tinified/News\ popup\ photo.png);
+  background-image: url(../images/tinified/umnews-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box5 {
-  background-image: url(../images/tinified/Local\ church\ popup\ photo.jpg);
+  background-image: url(../images/tinified/lcs-and-training-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box6 {
-  background-image: url(../images/tinified/Global\ Communications\ popup\ photo.jpg);
+  background-image: url(../images/tinified/global-communications-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box7 {
-  background-image: url(../images/tinified/Marketing\ popup\ photo.jpg);
+  background-image: url(../images/tinified/marketing-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box8 {
-  background-image: url(../images/tinified/TechnologyPopUp.png);
+  background-image: url(../images/tinified/technology-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #box9 {
-  background-image: url(../images/tinified/Productions\ services\ popup\ photo.jpg);
+  background-image: url(../images/tinified/production-services-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -779,11 +779,11 @@ p.sub-text {
 }
 
 #modal-1 .modal-image {
-  background-image: url(../images/tinified/Leader\ communications\ popup\ photo.jpg);
+  background-image: url(../images/tinified/leader-communication-popup-300px.jpg);
   background-size: cover;
   background-position: top center;
-  width: 344px;
-  height: 269px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -838,11 +838,11 @@ p.sub-text {
 }
 
 #modal-2 .modal-image {
-  background-image: url(../images/tinified/Member\ popup\ photo.jpg);
+  background-image: url(../images/tinified/member-communication-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
-  width: 344px;
-  height: 212px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -869,11 +869,11 @@ p.sub-text {
 }
 
 #modal-3 .modal-image {
-  background-image: url(../images/tinified/Seeker\ popup\ photo.png);
+  background-image: url(../images/tinified/seeker-popup-300px.jpg);
   background-size: cover;
   background-position: center center;
-  width: 344px;
-  height: 212px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -900,12 +900,12 @@ p.sub-text {
 }
 
 #modal-4 .modal-image {
-  background-image: url(../images/tinified/News\ popup\ photo.png);
+  background-image: url(../images/tinified/umnews-popup-300px.jpg);
   background-size: cover;
   background-position: 0px -28px;
   background-repeat: no-repeat;
-  width: 344px;
-  height: 294px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -932,12 +932,12 @@ p.sub-text {
 }
 
 #modal-5 .modal-image {
-  background-image: url(../images/tinified/Local\ church\ popup\ photo.jpg);
+  background-image: url(../images/tinified/lcs-and-training-popup-300px.jpg);
   background-size: cover;
   background-position: -36px -2px;
   background-repeat: no-repeat;
-  width: 307px;
-  height: 348px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -964,12 +964,12 @@ p.sub-text {
 }
 
 #modal-6 .modal-image {
-  background-image: url(../images/tinified/Global\ Communications\ popup\ photo.jpg);
+  background-image: url(../images/tinified/global-communications-popup-300px.jpg);
   background-size: cover;
   background-position: 0px -28px;
   background-repeat: no-repeat;
-  width: 306px;
-  height: 274px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -996,12 +996,12 @@ p.sub-text {
 }
 
 #modal-7 .modal-image {
-  background-image: url(../images/tinified/Marketing\ popup\ photo.jpg);
+  background-image: url(../images/tinified/marketing-popup-300px.jpg);
   background-size: cover;
   background-position: 0px -33px;
   background-repeat: no-repeat;
-  width: 306px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -1027,12 +1027,12 @@ p.sub-text {
 }
 
 #modal-8 .modal-image {
-  background-image: url(../images/tinified/TechnologyPopUp.png);
+  background-image: url(../images/tinified/technology-popup-300px.jpg);
   background-size: cover;
   background-position: -51px 2px;
   background-repeat: no-repeat;
-  width: 306px;
-  height: 379px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -1058,12 +1058,12 @@ p.sub-text {
 }
 
 #modal-9 .modal-image {
-  background-image: url(../images/tinified/Productions\ services\ popup\ photo.jpg);
+  background-image: url(../images/tinified/production-services-popup-300px.jpg);
   background-size: cover;
   background-position: 0px -28px;
   background-repeat: no-repeat;
-  width: 306px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
