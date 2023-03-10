@@ -902,7 +902,7 @@ p.sub-text {
 #modal-4 .modal-image {
   background-image: url(../images/tinified/umnews-popup-300px.jpg);
   background-size: cover;
-  background-position: 0px -28px;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
@@ -934,7 +934,7 @@ p.sub-text {
 #modal-5 .modal-image {
   background-image: url(../images/tinified/lcs-and-training-popup-300px.jpg);
   background-size: cover;
-  background-position: -36px -2px;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
@@ -966,7 +966,7 @@ p.sub-text {
 #modal-6 .modal-image {
   background-image: url(../images/tinified/global-communications-popup-300px.jpg);
   background-size: cover;
-  background-position: 0px -28px;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
@@ -998,7 +998,7 @@ p.sub-text {
 #modal-7 .modal-image {
   background-image: url(../images/tinified/marketing-popup-300px.jpg);
   background-size: cover;
-  background-position: 0px -33px;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
@@ -1029,7 +1029,7 @@ p.sub-text {
 #modal-8 .modal-image {
   background-image: url(../images/tinified/technology-popup-300px.jpg);
   background-size: cover;
-  background-position: -51px 2px;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
@@ -1060,7 +1060,7 @@ p.sub-text {
 #modal-9 .modal-image {
   background-image: url(../images/tinified/production-services-popup-300px.jpg);
   background-size: cover;
-  background-position: 0px -28px;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
