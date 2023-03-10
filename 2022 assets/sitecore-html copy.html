@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&amp;display=swap');
+        /* Header */
+        .hero-ar {
+        background-image: url("https://webassets.umc.org/annual-reports/2022/images/HeaderImage_WithOverlay.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+        padding: 0px !important;
+        display: block;
+        margin-bottom: 40px;
+        }
+        .hero-ar img {
+        margin: 0 auto;
+        position: relative;
+        width: 30em;
+        height: auto;
+        }
+        header h2 {
+        text-align: center;
+        margin: 0 auto;
+        }
+        .embed-responsive {
+        top: -205px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+        padding: 0;
+        overflow: hidden;
+        margin-bottom: -245px;
+        }
+        .embed-responsive::before {
+        display: block;
+        content: "";
+        }
+        .embed-responsive-16by9::before {
+        padding-top: 56.25%;
+        }
+        *, ::after, ::before {
+        box-sizing: border-box;
+        }
+        .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border: 2px #87a7c0 solid;
+        }
+        /* End Header
+        ====================== */
+        .content-panel:nth-of-type(2) {
+        position: relative !important;
+        z-index: 2 !important;
+        }
+        iframe {height: 2330px; width: 100%;}
+        /* CTA
+        ============*/
+        .footer-cta {
+        margin: 0px !important;
+        width: 100%;
+        min-height: 400px;
+        background-image: url('https://webassets.umc.org/annual-reports/2022/images/Texture_Background(WithOverlay).jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px 30px;
+        align-content: space-around;
+        align-items: center;
+        }
+        .content  p {
+        order: 1;
+        color: white !important;
+        font-family: "Helvetica", sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        width: 50%;
+        /* position: relative; */
+        padding: 89px 0px 10px 115px;
+        }
+        .content button {
+        order: 2;
+        width: auto;
+        height: 50px;
+        margin: 0 auto !important;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #f0a523;
+        font-weight: 600;
+        font-family: "Oswald";
+        position: relative;
+        color: white;
+        text-decoration: none;
+        }
+        .content button a {
+        color: white;
+        text-decoration: none;
+        }
+        /* Style for Extra Large Screen */
+        /* Style for Small Screen */
+        @media (max-width:1112px) {
+        iframe {
+        height: 2878px;
+        }
+        }
+        @media only screen and (max-width: 991px) {
+        .content {
+        flex-direction: column;
+        padding-bottom: 40px;
+        }
+        .content p {
+        width: 100%;
+        padding: 63px 20px 36px 42px;
+        }
+        }
+        @media (max-width:827px) {
+        iframe {
+        height: 3773px;
+        }
+        }
+        @media (max-width:615px) {
+        iframe {
+        height: 4343px;
+        }
+        .embed-responsive {
+        top: 0px;
+        width: 100%;
+        position: relative;
+        padding-top: 65px;
+        overflow: hidden;
+        margin-bottom: 0%;
+        }
+        .embed-responsive iframe {
+        position: absolute;
+        top: 0px !important;
+        bottom: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+        padding: 9px;
+        border: 2px #87a7c0 solid;
+        }
+        }
+    </style>
+    <script type="text/javascript">
+    $(".btn").click(function (e) {  
+            $('html, body').animate({
+                scrollTop: $("body").offset().top
+                }, 500);
+        }).click(function (e) { e.preventDefault();});
+    </script>
+    <div class="hero-ar">
+    <img src="https://webassets.umc.org/annual-reports/2022/images/2022 Header_Typetreatment.png">
+    </div>
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mk2woHKHUfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" id="player0" data-gtm-yt-inspected-8997737_37="true" data-gtm-yt-inspected-1_19="true"></iframe>
+    </div>
+    <iframe src="https://webassets.umc.org/annual-reports/2022" frameborder="0" scrolling="no" data-gtm-yt-inspected-8997737_37="true" data-gtm-yt-inspected-1_19="true"></iframe>
+    <div class="footer-cta">
+    <div class="content">
+    <p>For more than 80 years, United Methodist Communications has told inspirational stories of God&rsquo;s work in the world through The United Methodist Church, helped reach new people, supported local churches in vibrant communications ministry, equipped leaders and delivered messages of hope and healing.</p>
+    <button><a href="http://resourceumc.org/GiveUMCom">Support Our Work</a></button>
+    </div>
+    </div>
+</body>
+</html>
