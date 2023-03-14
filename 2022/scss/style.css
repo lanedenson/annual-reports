@@ -1117,7 +1117,6 @@ p.sub-text {
   }
 
   .infograph-mobile-stats {
-    background-image: url(../images/info_graph/MetricsCircle_WithOverlay.jpg);
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -1126,6 +1125,32 @@ p.sub-text {
     margin: 10px 0px;
     padding: 10px 20px;
   }
+
+  .infograph-mobile-stats#leaders-trained {
+    background-image: url(../images/info_graph/mobile/metric-image-darkgreen-overlay-leaderstrained.jpg);
+  }
+
+  .infograph-mobile-stats#advertising {
+    background-image: url(../images/info_graph/mobile/metric-image-darkpurple-overlay-advertising.jpg);
+  }
+
+  .infograph-mobile-stats#webpage {
+    background-image: url(../images/info_graph/mobile/metric-image-lightgreen-overlay-webpage.jpg);
+  }
+
+  .infograph-mobile-stats#social-media {
+    background-image: url(../images/info_graph/mobile/metric-image-lightpurple-overlay-socialmedia.jpg);
+  }
+
+  .infograph-mobile-stats#churches-served {
+    background-image: url(../images/info_graph/mobile/metric-image-red-overlay-churchesserved.jpg);
+  }
+
+  .infograph-mobile-stats#newsletter {
+    background-image: url(../images/info_graph/mobile/metric-image-teal-overlay-newsletter.jpg);
+  }
+
+
 
   .infograph-mobile-stats h4 {
     margin-top: 32px;
