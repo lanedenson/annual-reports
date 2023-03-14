@@ -92,7 +92,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(240, 165, 36, 0.8);
+  background-color: rgba(62, 177, 200, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -107,7 +107,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(240, 111, 62, 0.8);
+  background-color: rgba(228, 0, 43, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -137,7 +137,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(161, 233, 162, 0.8);
+  background-color: rgba(152, 134, 191, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -152,7 +152,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(140, 159, 170, 0.8);
+  background-color: rgba(30, 96, 121, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -167,7 +167,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(0, 180, 161, 0.8);
+  background-color: rgba(140, 158, 171, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -182,7 +182,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(16, 142, 196, 0.8);
+  background-color: rgba(83, 73, 145, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -197,7 +197,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(0, 95, 140, 0.8);
+  background-color: rgba(244, 180, 43, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -212,7 +212,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(138, 94, 191, 0.8);
+  background-color: rgba(194, 200, 101, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -436,7 +436,7 @@ p.sub-text {
 .bottom-left-section:hover ~ .middle-image-hover,
 .bottom-section:hover ~ .middle-image-hover,
 .bottom-right-section:hover ~ .middle-image-hover {
-  opacity: 0.6 !important;
+opacity: 0.6 !important;
   transition: opacity 0.2s;
 }
 
@@ -641,7 +641,7 @@ p.sub-text {
   bottom: 0;
   width: 25em;
   height: 25em;
-  background-image: url(../images/info_graph/center.png);
+  background-image: url(../images/info_graph/center-0.png);
   border-radius: 100%;
   background-repeat: none;
   background-position: center;
@@ -662,6 +662,33 @@ p.sub-text {
   opacity: 0;
   transition: opacity 0.2s;
 }
+/*
+.middle-image-hover-top-left {
+  top: 0px;
+  left: -974px;
+  background-image: url(../images/info_graph/center-6.png);
+  bottom: 0;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-repeat: none;
+  position: relative;
+  transition: opacity 0.2s;
+}
+
+.middle-image-hover-top {
+  top: 0px;
+  left: -620px;
+  background-image: url(../images/info_graph/center-1.png);
+  bottom: 0;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-repeat: none;
+  position: relative;
+  transition: opacity 0.2s;
+}
+*/
 
 .top-left-section > .stats {
   color: white;
