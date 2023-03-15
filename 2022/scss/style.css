@@ -122,7 +122,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(228, 0, 43, 0.8);
+  background-color: rgba(152, 134, 191, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -137,7 +137,7 @@ p.sub-text {
   overflow: hidden;
   color: white;
   font-family: "Oswald";
-  background-color: rgba(152, 134, 191, 0.8);
+  background-color: rgba(122, 205, 141, 0.8);
   visibility: hidden;
   max-height: inherit;
   min-height: inherit;
@@ -223,39 +223,39 @@ p.sub-text {
 }
 
 .cell_1 .btn {
-  color: rgba(240, 165, 36, 0.8) !important;
+  color: rgba(62, 177, 200, 0.8) !important;
 }
 
 .cell_2 .btn {
-  color: rgba(240, 111, 62, 0.8) !important;
-}
-
-.cell_3 .btn {
   color: rgba(228, 0, 43, 0.8) !important;
 }
 
+.cell_3 .btn {
+  color: rgba(152, 134, 191, 0.8) !important;
+}
+
 .cell_4 .btn {
-  color: rgba(161, 233, 162, 0.8) !important;
+  color: rgba(122, 205, 141, 0.8) !important;
 }
 
 .cell_5 .btn {
-  color: rgba(140, 159, 170, 0.8) !important;
+  color: rgba(30, 96, 121, 0.8) !important;
 }
 
 .cell_6 .btn {
-  color: rgba(0, 180, 161, 0.8) !important;
+  color: rgba(140, 158, 171, 0.8) !important;
 }
 
 .cell_7 .btn {
-  color: rgba(16, 142, 196, 0.8) !important;
+  color: rgba(83, 73, 145, 0.8) !important;
 }
 
 .cell_8 .btn {
-  color: rgba(0, 95, 140, 0.8) !important;
+  color: rgba(244, 180, 43, 0.8) !important;
 }
 
 .cell_9 .btn {
-  color: rgba(138, 94, 191, 0.8) !important;
+  color: rgba(194, 200, 101, 0.8) !important;
 }
 
 #box1 {
