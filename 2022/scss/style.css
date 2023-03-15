@@ -652,7 +652,7 @@ opacity: 0.6 !important;
 .middle-image-hover {
   top: 0px;
   left: -613px;
-  background-color: #00B6C0;
+  /*background-color: #00B6C0;*/
   bottom: 0;
   width: 350px;
   height: 350px;
