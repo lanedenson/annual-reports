@@ -828,13 +828,13 @@ opacity: 0.6 !important;
 }
 
 #modal-1 h3 {
-  color: rgba(240, 165, 36, 0.8);
+  color: rgba(62, 177, 200, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-1 h4 {
-  color: rgba(240, 165, 36, 0.8);
+  color: rgba(62, 177, 200, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -844,7 +844,7 @@ opacity: 0.6 !important;
 }
 
 #modal-1 .close {
-  background-color: rgba(240, 165, 36, 0.8);
+  background-color: rgba(62, 177, 200, 0.8);
   opacity: 1 !important;
 }
 
@@ -875,13 +875,13 @@ opacity: 0.6 !important;
 }
 
 #modal-2 h3 {
-  color: rgba(240, 111, 62, 0.8);
+  color: rgba(228, 0, 43, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-2 h4 {
-  color: rgba(240, 111, 62, 0.8);
+  color: rgba(228, 0, 43, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -891,7 +891,7 @@ opacity: 0.6 !important;
 }
 
 #modal-2 .close {
-  background-color: rgba(240, 111, 62, 0.8);
+  background-color: rgba(228, 0, 43, 0.8);
   opacity: 1 !important;
 }
 
@@ -906,13 +906,13 @@ opacity: 0.6 !important;
 }
 
 #modal-3 h3 {
-  color: rgba(228, 0, 43, 0.8);
+  color: rgba(152, 134, 191, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-3 h4 {
-  color: rgba(228, 0, 43, 0.8);
+  color: rgba(152, 134, 191, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -922,7 +922,7 @@ opacity: 0.6 !important;
 }
 
 #modal-3 .close {
-  background-color: rgba(228, 0, 43, 0.8);
+  background-color: rgba(152, 134, 191, 0.8);
   opacity: 1 !important;
 }
 
@@ -938,13 +938,13 @@ opacity: 0.6 !important;
 }
 
 #modal-4 h3 {
-  color: rgba(161, 233, 162, 0.8);
+  color: rgba(122, 205, 141, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-4 h4 {
-  color: rgba(161, 233, 162, 0.8);
+  color: rgba(122, 205, 141, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -954,7 +954,7 @@ opacity: 0.6 !important;
 }
 
 #modal-4 .close {
-  background-color: rgba(161, 233, 162, 0.8);
+  background-color: rgba(122, 205, 141, 0.8);
   opacity: 1 !important;
 }
 
@@ -970,13 +970,13 @@ opacity: 0.6 !important;
 }
 
 #modal-5 h3 {
-  color: rgba(140, 159, 170, 0.8);
+  color: rgba(30, 96, 121, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-5 h4 {
-  color: rgba(140, 159, 170, 0.8);
+  color: rgba(30, 96, 121, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -986,7 +986,7 @@ opacity: 0.6 !important;
 }
 
 #modal-5 .close {
-  background-color: rgba(140, 159, 170, 0.8);
+  background-color: rgba(30, 96, 121, 0.8);
   opacity: 1 !important;
 }
 
@@ -1002,13 +1002,13 @@ opacity: 0.6 !important;
 }
 
 #modal-6 h3 {
-  color: rgba(0, 180, 161, 0.8);
+  color: rgba(140, 158, 171, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-6 h4 {
-  color: rgba(0, 180, 161, 0.8);
+  color: rgba(140, 158, 171, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -1018,7 +1018,7 @@ opacity: 0.6 !important;
 }
 
 #modal-6 .close {
-  background-color: rgba(0, 180, 161, 0.8);
+  background-color: rgba(140, 158, 171, 0.8);
   opacity: 1 !important;
 }
 
@@ -1034,13 +1034,13 @@ opacity: 0.6 !important;
 }
 
 #modal-7 h3 {
-  color: rgba(16, 142, 196, 0.8);
+  color: rgba(83, 73, 145, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-7 h4 {
-  color: rgba(16, 142, 196, 0.8);
+  color: rgba(83, 73, 145, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -1050,7 +1050,7 @@ opacity: 0.6 !important;
 }
 
 #modal-7 .close {
-  background-color: rgba(16, 142, 196, 0.8);
+  background-color: rgba(83, 73, 145, 0.8);
 }
 
 #modal-8 .modal-image {
@@ -1065,13 +1065,13 @@ opacity: 0.6 !important;
 }
 
 #modal-8 h3 {
-  color: rgba(0, 95, 140, 0.8);
+  color: rgba(244, 180, 43, 0.8);
   font-size: 40px;
   opacity: 1 !important;
 }
 
 #modal-8 h4 {
-  color: rgba(0, 95, 140, 0.8);
+  color: rgba(244, 180, 43, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -1081,7 +1081,7 @@ opacity: 0.6 !important;
 }
 
 #modal-8 .close {
-  background-color: rgba(0, 95, 140, 0.8);
+  background-color: rgba(244, 180, 43, 0.8);
 }
 
 #modal-9 .modal-image {
@@ -1096,14 +1096,14 @@ opacity: 0.6 !important;
 }
 
 #modal-9 h3 {
-  color: rgba(138, 94, 191, 0.8);
+  color: rgba(194, 200, 101, 0.8);
   font-size: 40px;
   opacity: 1 !important;
   line-height: 40px;
 }
 
 #modal-9 h4 {
-  color: rgba(138, 94, 191, 0.8);
+  color: rgba(194, 200, 101, 0.8);
   font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: 700;
@@ -1113,7 +1113,7 @@ opacity: 0.6 !important;
 }
 
 #modal-9 .close {
-  background-color: rgba(138, 94, 191, 0.8);
+  background-color: rgba(194, 200, 101, 0.8);
 }
 
 .mobile-infograph {
@@ -1138,7 +1138,7 @@ opacity: 0.6 !important;
     font-family: "Oswald";
     font-weight: 700;
     font-size: 2em;
-    line-height: normal;
+    line-height: .5em;
     color: #141414;
     text-transform: uppercase;
   }
