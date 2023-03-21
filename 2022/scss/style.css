@@ -1138,7 +1138,7 @@ opacity: 0.6 !important;
     font-family: "Oswald";
     font-weight: 700;
     font-size: 2em;
-    line-height: .5em;
+    /*line-height: .5em;*/
     color: #141414;
     text-transform: uppercase;
   }
