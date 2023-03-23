@@ -8,11 +8,13 @@
   font-family: Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
+  font-display: swap;
 }
 .annual-report p {
   font-family: Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
+  font-display: swap;
 }
 .annual-report h3 {
   text-transform: uppercase;
@@ -54,6 +56,7 @@ p.sub-text {
   margin-bottom: 20px;
   line-height: normal;
   color: #141414;
+  font-display: swap;
 }
 
 .modal-body .container {
@@ -783,6 +786,7 @@ opacity: 0.6 !important;
 .col-8 p {
   font-family: "Helvetica 45 Light", sans-serif;
   font-weight: 200;
+  font-display: swap;
 }
 
 .modal-content {
@@ -862,6 +866,7 @@ opacity: 0.6 !important;
   text-align: center;
   line-height: 1em;
   color: #3a3a3a;
+  font-display: swap;
 }
 
 #modal-2 .modal-image {
@@ -1191,6 +1196,7 @@ opacity: 0.6 !important;
     font-family: "Helvetica 45 Light", sans-serif;
     font-size: 1.5em;
     font-weight: 200;
+    font-display: swap;
   }
 
   .modal-image {
